@@ -1,0 +1,34 @@
+
+GET http://localhost:3000/api/listar
+
+
+### 
+
+GET http://localhost:3000/api/listar/0
+
+
+### 
+
+POST http://localhost:3000/api/criar 
+Content-Type: application/json
+ 
+{
+    "id":"",
+    "titulo": "Ricardo",
+    "descricao": "Delta Omega Beta"
+}
+
+### 
+
+PUT http://localhost:3000/api/atualizar/0
+Content-Type: application/json
+ 
+{
+    "titulo": "Titulo Atualizado Y",
+    "descricao": "Descricao Atualizada Y"
+}
+
+### 
+
+
+DELETE http://localhost:3000/api/deletar/67062ec1-0aba-4039-8dbf-ac4f5e113e46
